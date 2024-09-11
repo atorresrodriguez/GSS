@@ -37,7 +37,7 @@ $H_0$: gun ownership and opinion on capital punishment aare not related
 $H_0$: gun ownership and opion capital punishment 
 related 
 
-OWNGUN~ CAPPUN both are categorical, thus us use
+OWNGUN~ CAPPUN both are categorical, thus us use cat~cat
 
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
