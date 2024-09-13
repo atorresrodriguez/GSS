@@ -159,7 +159,13 @@ $H_0$: A person's performance on the wordsum test and their level of schooling a
 
 #### Graphical Descriptive Results
 
-<!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+<!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!--> 
+
+```{r}
+plot(WORDSUM~DEGREE,data=GSSdata)
+```
+The graph shows that people with highter level of education tende to score highter on the wordsum test.
+
 
 #### Numerical Descriptive Results
 
