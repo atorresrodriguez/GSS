@@ -34,8 +34,10 @@ First question - Is opinion on the death penalty (CAPPUN) independent of gun own
 Question: is gun ownership independent of opinion on capital punishment?
 
 $H_0$: gun ownership and opinion on capital punishment aare not related
-$H_0$: gun ownership and opion capital punishment 
-related 
+
+
+$H_0$: gun ownership and opion capital punishment related 
+
 
 OWNGUN~ CAPPUN both are categorical, thus us use cat~cat
  
@@ -85,6 +87,10 @@ fisher.test(table1)
 <!--In this section you explain what you are trying to show.  Where did the data come from?  What is the research or other question you are trying to answer?!-->
 
 Is there a difference in years of education (EDUC) between the those who did or did not vote in 2012 (VOTE12)?
+
+$H_0$:there is no relation between the years of education and wheather or not they voted in 2012
+
+$H_0$: there is a reltion between years of education and wheather or not they voted voted in 2012
 
 ## Methods
 
@@ -136,6 +142,14 @@ Determine if a persons performance on the wordsum test (WORDSUM) is independent 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
 Determine if a persons performance on the wordsum test (WORDSUM) is independent of their level of schooling (DEGREE).
+
+
+$H_0$: A person's performance on the wordsum test and their level os schooling are not related.
+
+$H_0$: A person's performance on the wordsum test and their level of schooling are related.
+
+
+
 
 ##Results
 
