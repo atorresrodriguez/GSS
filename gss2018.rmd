@@ -191,7 +191,14 @@ summary.aov(model1)
 
 we reject the null because the P-value (2.5e-07) is much lower than 0.05. This would mean that there is a relationship between highter levels of educationand how well a person if likely to perform during the wordsum test. Therefore, you are likely to score better on the wordsum test if you have highter levels of education.
 
+
+```{r}
+plot(TukeyHSD(model1))
+```
+
+
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
+for ll the question there was a relationship to be found between the factors. we rejected the null hypothesis for all three scenerios. each time finding the p-value of the results to be lower than 0.5. statistically speaking you are more likely to be in favor of the capital punishment if you ae a gun owner, you wordsum test if you have the highter of education.
