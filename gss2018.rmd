@@ -169,7 +169,16 @@ The graph shows that people with highter level of education tende to score hight
 
 #### Numerical Descriptive Results
 
+
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+favstats(WORDSUM~DEGREE,data=GSSdata)
+```
+
+similar to the bar graph the numerical result shows that there does some to be a trend for higher levels of 
+education and highter score on the wordsum test.
+
 
 ### Inferential Results
 
